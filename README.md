@@ -4,7 +4,7 @@
 Welcome to the Python basics guide! This document covers fundamental Python concepts such as comments, variables, data types, and strings.
 
 ## Table of Contents
-1. [Comments in Python] (#comments-in-python)
+1. [Comments in Python](#comments-in-python)
 2. [Python Variables](#python-variables)
 3. [Python Built-in Data Types](#python-built-in-data-types)
 4. [Python Strings - Short Notes](#python-strings-short-notes)
