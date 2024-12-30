@@ -89,9 +89,13 @@ myVar, _myVar, var_2
 2myVar, my-var, my var
 
 **Multi-word variable names:**
+
 **Camel Case:** myVariableName
+
 **Pascal Case:** MyVariableName
+
 **Snake Case:** my_variable_name
+
 **Python Variable Assignment**
 
 1. **Assign Multiple Values to Multiple Variables**:  
