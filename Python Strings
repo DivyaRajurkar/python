@@ -123,4 +123,215 @@ z = """Python is great"""
 | `splitlines()`| Splits string by line breaks                     |
 | `zfill(n)`    | Pads string with zeros to make it length `n`     |
 
+
+### **Common String Methods with Examples**
+
+---
+
+#### 1. **`capitalize()`**
+Converts the first character to uppercase.  
+```python
+txt = "hello world"
+print(txt.capitalize())  # Hello world
+```
+
+---
+
+#### 2. **`casefold()`**
+Converts the string to lowercase (more aggressive than `lower()`).  
+```python
+txt = "HELLO"
+print(txt.casefold())  # hello
+```
+
+---
+
+#### 3. **`center()`**
+Centers the string with a specified width, padding with spaces or a specified character.  
+```python
+txt = "Python"
+print(txt.center(10))      # '  Python  '
+print(txt.center(10, "-")) # '--Python--'
+```
+
+---
+
+#### 4. **`count()`**
+Counts occurrences of a substring.  
+```python
+txt = "banana"
+print(txt.count("a"))  # 3
+```
+
+---
+
+#### 5. **`encode()`**
+Encodes the string into bytes using a specified encoding.  
+```python
+txt = "Hello World!"
+print(txt.encode())  # b'Hello World!'
+```
+
+---
+
+#### 6. **`endswith()`**
+Checks if the string ends with the specified value.  
+```python
+txt = "Python programming"
+print(txt.endswith("ing"))  # True
+```
+
+---
+
+#### 7. **`find()`**
+Finds the first occurrence of a substring. Returns `-1` if not found.  
+```python
+txt = "Hello, World!"
+print(txt.find("World"))  # 7
+print(txt.find("Python")) # -1
+```
+
+---
+
+#### 8. **`format()`**
+Formats a string with placeholders.  
+```python
+txt = "My name is {} and I am {} years old."
+print(txt.format("John", 25))  # My name is John and I am 25 years old.
+```
+
+---
+
+#### 9. **`index()`**
+Finds the first occurrence of a substring. Raises an error if not found.  
+```python
+txt = "Hello, World!"
+print(txt.index("World"))  # 7
+```
+
+---
+
+#### 10. **`isalnum()`**
+Checks if all characters are alphanumeric.  
+```python
+txt = "Hello123"
+print(txt.isalnum())  # True
+```
+
+---
+
+#### 11. **`isalpha()`**
+Checks if all characters are alphabetic.  
+```python
+txt = "Hello"
+print(txt.isalpha())  # True
+```
+
+---
+
+#### 12. **`isdigit()`**
+Checks if all characters are digits.  
+```python
+txt = "12345"
+print(txt.isdigit())  # True
+```
+
+---
+
+#### 13. **`islower()`**
+Checks if all characters are lowercase.  
+```python
+txt = "hello"
+print(txt.islower())  # True
+```
+
+---
+
+#### 14. **`isspace()`**
+Checks if all characters are whitespaces.  
+```python
+txt = "   "
+print(txt.isspace())  # True
+```
+
+---
+
+#### 15. **`startswith()`**
+Checks if the string starts with the specified value.  
+```python
+txt = "Python programming"
+print(txt.startswith("Py"))  # True
+```
+
+---
+
+#### 16. **`join()`**
+Joins elements of an iterable with the string as a separator.  
+```python
+my_list = ["Python", "is", "fun"]
+print(" ".join(my_list))  # Python is fun
+```
+
+---
+
+#### 17. **`lower()`**
+Converts the string to lowercase.  
+```python
+txt = "HELLO"
+print(txt.lower())  # hello
+```
+
+---
+
+#### 18. **`replace()`**
+Replaces occurrences of a substring.  
+```python
+txt = "I like apples"
+print(txt.replace("apples", "bananas"))  # I like bananas
+```
+
+---
+
+#### 19. **`split()`**
+Splits the string into a list.  
+```python
+txt = "apple,banana,cherry"
+print(txt.split(","))  # ['apple', 'banana', 'cherry']
+```
+
+---
+
+#### 20. **`strip()`**
+Removes leading and trailing whitespaces.  
+```python
+txt = "   Hello, World!   "
+print(txt.strip())  # Hello, World!
+```
+
+---
+
+#### 21. **`title()`**
+Converts the first character of each word to uppercase.  
+```python
+txt = "hello world"
+print(txt.title())  # Hello World
+```
+
+---
+
+#### 22. **`upper()`**
+Converts the string to uppercase.  
+```python
+txt = "hello"
+print(txt.upper())  # HELLO
+```
+
+---
+
+#### 23. **`zfill()`**
+Pads the string with zeros to the specified length.  
+```python
+txt = "42"
+print(txt.zfill(5))  # 00042
+```
 ---
