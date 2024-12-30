@@ -1,0 +1,126 @@
+### Python Strings - Short Notes
+
+---
+
+#### **Definition**  
+Strings in Python are sequences of characters enclosed in single `'`, double `"`, or triple quotes `'''`/`"""`.  
+Example:  
+```python
+x = "Hello"  
+y = 'World'  
+z = """Python is great"""
+```
+
+---
+
+### **Key Features**
+- **Immutable**: Strings cannot be changed after creation.
+- **Indexing**: Characters are accessed using positive or negative indexes.
+  ```python
+  s = "Python"
+  print(s[0])   # P
+  print(s[-1])  # n
+  ```
+
+---
+
+### **String Operations**
+1. **Concatenation**: Combine strings using `+`.  
+   ```python
+   "Hello" + " World"  # Hello World
+   ```
+2. **Repetition**: Repeat strings using `*`.  
+   ```python
+   "Hi!" * 3  # Hi!Hi!Hi!
+   ```
+3. **Slicing**: Extract substrings using `[start:end]`.  
+   ```python
+   s = "Hello, World!"
+   print(s[2:5])  # llo
+   print(s[:5])   # Hello
+   print(s[7:])   # World!
+   print(s[-5:-2]) # Wor
+   ```
+
+---
+
+### **Multiline Strings**
+- Use triple quotes for multiline text.  
+  ```python
+  multiline = """This is 
+  a multiline 
+  string."""
+  ```
+
+---
+
+### **String Methods**
+- **`upper()`**: Converts to uppercase.  
+  ```python
+  "hello".upper()  # HELLO
+  ```
+- **`lower()`**: Converts to lowercase.  
+  ```python
+  "HELLO".lower()  # hello
+  ```
+- **`strip()`**: Removes leading/trailing whitespace.  
+  ```python
+  " Hello ".strip()  # Hello
+  ```
+- **`replace()`**: Replaces a substring.  
+  ```python
+  "Hello".replace("H", "J")  # Jello
+  ```
+- **`split()`**: Splits into a list.  
+  ```python
+  "a,b,c".split(",")  # ['a', 'b', 'c']
+  ```
+
+---
+
+### **String Formatting**
+1. **f-Strings**:  
+   ```python
+   name = "John"
+   age = 30
+   print(f"My name is {name}, and I am {age}")  # My name is John, and I am 30
+   ```
+2. **`format()`**:  
+   ```python
+   price = 50
+   print("Price is {}".format(price))  # Price is 50
+   ```
+
+---
+
+### **Escape Characters**
+- Use `\` to include special characters.  
+  ```python
+  txt = "We are the \"Vikings\" from the north."
+  print(txt)  # We are the "Vikings" from the north.
+  ```
+| Escape | Description       |
+|--------|-------------------|
+| `\'`   | Single quote      |
+| `\"`   | Double quote      |
+| `\\`   | Backslash         |
+| `\n`   | New line          |
+| `\t`   | Tab               |
+
+---
+
+### **Common String Methods**
+| Method        | Description                                      |
+|---------------|--------------------------------------------------|
+| `capitalize()`| Converts first character to uppercase            |
+| `find()`      | Finds the first occurrence of a substring        |
+| `isalnum()`   | Checks if all characters are alphanumeric        |
+| `isalpha()`   | Checks if all characters are alphabetic          |
+| `isdigit()`   | Checks if all characters are digits              |
+| `startswith()`| Checks if string starts with a specified value   |
+| `endswith()`  | Checks if string ends with a specified value     |
+| `join()`      | Joins elements of an iterable with the string    |
+| `splitlines()`| Splits string by line breaks                     |
+| `zfill(n)`    | Pads string with zeros to make it length `n`     |
+
+---
