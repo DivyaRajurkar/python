@@ -304,3 +304,6 @@ int - Integer numbers (e.g., 1, 100, -10)
 float - Decimal or floating-point numbers (e.g., 1.5, -3.14, 2.0)
 complex - Complex numbers with real and imaginary parts (e.g., 3 + 5j, -2j)
 
+Explicit casting uses functions like int(), float(), str(), etc.
+Implicit casting is done automatically by Python during operations.
+Invalid conversions (e.g., int("abc")) will throw an error.
