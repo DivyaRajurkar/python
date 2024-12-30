@@ -4,7 +4,7 @@ Here's how you can structure your README with clickable links for easy navigatio
 Welcome to the Python basics guide! This document covers fundamental Python concepts such as comments, variables, data types, and strings.
 
 ## Table of Contents
-1. [Comments in Python] https://github.com/DivyaRajurkar/python/blob/main/**Python%20Comments**
+1. [Comments in Python] (#comments-in-python)
 2. [Python Variables](#python-variables)
 3. [Python Built-in Data Types](#python-built-in-data-types)
 4. [Python Strings - Short Notes](#python-strings-short-notes)
