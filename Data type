@@ -1,0 +1,108 @@
+# Examples of Python Data Types
+
+Here are examples of different Python data types using built-in functions:
+
+```python
+# Text Type
+x = str("Hello World")       # str
+print(x, type(x))            # Output: Hello World <class 'str'>
+
+# Numeric Types
+x = int(20)                  # int
+print(x, type(x))            # Output: 20 <class 'int'>
+
+x = float(20.5)              # float
+print(x, type(x))            # Output: 20.5 <class 'float'>
+
+x = complex(1j)              # complex
+print(x, type(x))            # Output: 1j <class 'complex'>
+
+# Sequence Types
+x = list(("apple", "banana", "cherry"))  # list
+print(x, type(x))            # Output: ['apple', 'banana', 'cherry'] <class 'list'>
+
+x = tuple(("apple", "banana", "cherry"))  # tuple
+print(x, type(x))            # Output: ('apple', 'banana', 'cherry') <class 'tuple'>
+
+x = range(6)                 # range
+print(x, type(x))            # Output: range(0, 6) <class 'range'>
+
+# Mapping Type
+x = dict(name="John", age=36)  # dict
+print(x, type(x))            # Output: {'name': 'John', 'age': 36} <class 'dict'>
+
+# Set Types
+x = set(("apple", "banana", "cherry"))  # set
+print(x, type(x))            # Output: {'apple', 'banana', 'cherry'} <class 'set'>
+
+x = frozenset(("apple", "banana", "cherry"))  # frozenset
+print(x, type(x))            # Output: frozenset({'apple', 'banana', 'cherry'}) <class 'frozenset'>
+
+# Boolean Type
+x = bool(5)                  # bool
+print(x, type(x))            # Output: True <class 'bool'>
+
+# Binary Types
+x = bytes(5)                 # bytes
+print(x, type(x))            # Output: b'\x00\x00\x00\x00\x00' <class 'bytes'>
+
+x = bytearray(5)             # bytearray
+print(x, type(x))            # Output: bytearray(b'\x00\x00\x00\x00\x00') <class 'bytearray'>
+
+x = memoryview(bytes(5))     # memoryview
+print(x, type(x))            # Output: <memory at 0x...> <class 'memoryview'>
+
+Python has three numeric types:
+
+int - Integer numbers (e.g., 1, 100, -10)
+float - Decimal or floating-point numbers (e.g., 1.5, -3.14, 2.0)
+complex - Complex numbers with real and imaginary parts (e.g., 3 + 5j, -2j)
+Type Checking
+Use the type() function to check the type of a number:
+
+python
+Copy code
+x = 5          # int
+y = 3.14       # float
+z = 2 + 3j     # complex
+
+print(type(x))  # Output: <class 'int'>
+print(type(y))  # Output: <class 'float'>
+print(type(z))  # Output: <class 'complex'>
+Type Conversion
+Convert between numeric types using int(), float(), and complex():
+
+python
+Copy code
+x = float(5)       # int to float
+y = int(3.14)      # float to int
+z = complex(5)     # int to complex
+
+print(x, y, z)     # Output: 5.0 3 (5+0j)
+Example of Numeric Operations
+python
+Copy code
+# Addition
+a = 10 + 5  # Output: 15
+
+# Subtraction
+b = 10 - 5  # Output: 5
+
+# Multiplication
+c = 10 * 5  # Output: 50
+
+# Division
+d = 10 / 3  # Output: 3.333...
+
+# Floor Division
+e = 10 // 3  # Output: 3
+
+# Modulus
+f = 10 % 3   # Output: 1
+
+# Exponentiation
+g = 2 ** 3   # Output: 8
+Key Points
+int and float are used for arithmetic operations.
+Complex numbers include a real and imaginary part.
+Use type conversion functions to switch between numeric types.
