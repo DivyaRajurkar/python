@@ -88,6 +88,10 @@ myVar, _myVar, var_2
 **Invalid names:**
 2myVar, my-var, my var
 
+**Multi-word variable names:**
+**Camel Case:** myVariableName
+**Pascal Case:** MyVariableName
+**Snake Case:** my_variable_name
 **Python Variable Assignment**
 
 1. **Assign Multiple Values to Multiple Variables**:  
@@ -200,8 +204,5 @@ print("Python is " + x)  # Output: Python is awesome
 
 In this example, the global variable `x` remains unchanged outside the function, even though the function uses a local `x`.
 
-**Multi-word variable names:**
-**Camel Case:** myVariableName
-**Pascal Case:** MyVariableName
-**Snake Case:** my_variable_name
+
 Python's simplicity and flexibility with variables make it a powerful language for developers.
