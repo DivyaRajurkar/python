@@ -298,9 +298,9 @@ print(x, type(x))            # Output: bytearray(b'\x00\x00\x00\x00\x00') <class
 x = memoryview(bytes(5))     # memoryview
 print(x, type(x))            # Output: <memory at 0x...> <class 'memoryview'>
 
-**Python has three numeric types:**
+# Python has three numeric types:
 
-**int** - Integer numbers (e.g., 1, 100, -10)
-**float** - Decimal or floating-point numbers (e.g., 1.5, -3.14, 2.0)
-**complex** - Complex numbers with real and imaginary parts (e.g., 3 + 5j, -2j)
+int - Integer numbers (e.g., 1, 100, -10)
+float - Decimal or floating-point numbers (e.g., 1.5, -3.14, 2.0)
+complex - Complex numbers with real and imaginary parts (e.g., 3 + 5j, -2j)
 
