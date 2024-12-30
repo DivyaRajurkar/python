@@ -1,4 +1,4 @@
-Here's how you can structure your README with clickable links for easy navigation. This uses Markdown's anchor links to create sections that users can jump to:
+
 # Python Basics
 
 Welcome to the Python basics guide! This document covers fundamental Python concepts such as comments, variables, data types, and strings.
