@@ -68,5 +68,10 @@ A variable in Python is a container used to store data values. It acts as a labe
      x = 5       # Integer
      x = "Five"  # String
      ```
-
+6. **Case-sensitive**:
+name = "Alice"
+Name = "Bob"
+print(name)  # Output: Alice
+print(Name)  # Output: Bob
+both name and Name are differtnt variable 
 Python's simplicity and flexibility with variables make it a powerful language for developers.
