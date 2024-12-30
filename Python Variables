@@ -86,4 +86,82 @@ A = "Sally"
    print(y)  # Output: banana
    print(z)  # Output: cherry
    ```
+**Python Output Variables**
+
+In Python, the `print()` function is used to output variables to the console.
+
+### Examples:
+
+1. **Output a single variable**:
+   ```python
+   x = "Python is awesome"
+   print(x)
+   ```
+
+2. **Output multiple variables with commas**:
+   ```python
+   x = "Python"
+   y = "is"
+   z = "awesome"
+   print(x, y, z)  # Output: Python is awesome
+   ```
+
+3. **Output multiple variables using `+`**:
+   ```python
+   x = "Python "
+   y = "is "
+   z = "awesome"
+   print(x + y + z)  # Output: Python is awesome
+   ```
+
+4. **For numbers, `+` works as a mathematical operator**:
+   ```python
+   x = 5
+   y = 10
+   print(x + y)  # Output: 15
+   ```
+
+5. **Combining string and number with `+` causes an error**:
+   ```python
+   x = 5
+   y = "John"
+   print(x + y)  # Error
+   ```
+
+**Best Practice**: Use commas to output different types of variables together, as it handles both strings and numbers without errors:
+```python
+x = 5
+y = "John"
+print(x, y)  # Output: 5 John
+```
+**Global Variables in Python**
+
+Global variables are those defined outside of any function. They can be accessed both inside and outside functions.
+
+### Example:
+```python
+x = "awesome"  # Global variable
+
+def myfunc():
+    print("Python is " + x)  # Accessing global variable inside function
+
+myfunc()  # Output: Python is awesome
+```
+
+If you create a variable inside a function with the same name as a global variable, it becomes **local** to that function, and does not affect the global variable.
+
+### Example:
+```python
+x = "awesome"  # Global variable
+
+def myfunc():
+    x = "fantastic"  # Local variable
+    print("Python is " + x)  # Output: Python is fantastic
+
+myfunc()
+
+print("Python is " + x)  # Output: Python is awesome
+```
+
+In this example, the global variable `x` remains unchanged outside the function, even though the function uses a local `x`.
 Python's simplicity and flexibility with variables make it a powerful language for developers.
